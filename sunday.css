@@ -1,0 +1,21 @@
+header {
+  background-color: lightblue;
+  margin: 0px;
+  padding: 20px;
+}
+
+.img1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+nav {
+  magrin-right: 80px;
+  float: right;
+}
+
+.h1 {
+  font-size: 80px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(232, 230, 235);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: auto;
+  height: auto;
+  background-color: lightblue;
+  padding-left: 20px;
+  color: white;
+  content: icon;
+  margin: 0;
+}
+
+.img1 {
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.nav {
+  float: right;
+  text-decoration-color: white;
+  margin-right: 80px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+
+
+h2 {
+  text-align: left;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.T1 {
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 10px;
+  margin-left: 10px;
+}
+
+.T2 {
+  display: flex;
+  float: right;
+  border: 20px;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 10px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.card1 {
+  box-shadow: 0 0 10px black;
+  display: flex;
+  background-color: lightblue;
+  width: fit-content;
+}
+
+#T1,
+#T2 {
+  text-align: center;
+  margin-left: 2px;
+  margin: 50px;
+}
+
+#T2 {
+  text-align: right;
+  margin-left: 2px;
+  margin: 50px;
+  text-align: center;
+}
+
+.img2 {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  margin: 100px;
+}
+
+#divimg2 {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+
+#css {
+  width: 600px;
+  height: 30px;
+}
+
+.reg {
+  text-align: left;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 6000px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.139);
+}
+
+button {
+  width: 60px;
+  height: 40px;
+  background-color: #28a745;
+  border-radius: 10px;
+  color: white;
+  font-size: auto;
+}

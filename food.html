@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nigerian Food Order</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8fafc;
+        color: #333;
+      }
+
+      header {
+        background: #2c3e50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 28px;
+      }
+
+      header p {
+        margin: 5px 0 0;
+        font-size: 16px;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #2c3e50;
+      }
+
+      p.text {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 18px;
+        color: #555;
+      }
+
+      /* Food Gallery */
+      .food-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 20px;
+        margin: 30px 0;
+      }
+
+      .food-card {
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.3s;
+      }
+
+      .food-card:hover {
+        transform: scale(1.05);
+      }
+
+      .food-card img {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+      }
+
+      .food-card h3 {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #2c3e50;
+      }
+
+      /* Form Section */
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .container div {
+        margin-bottom: 15px;
+        text-align: left;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #2c3e50;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+        transition: border-color 0.3s, box-shadow 0.3s;
+      }
+
+      input:focus,
+      select:focus {
+        border-color: #3498db;
+        outline: none;
+      }
+
+      select {
+        background-color: #fff;
+        cursor: pointer;
+      }
+
+      button {
+        width: 100%;
+        padding: 12px;
+        background: #3498db;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+
+      button:hover {
+        background: #2980b9;
+      }
+
+      footer {
+        text-align: center;
+        background: #2c3e50;
+        color: white;
+        padding: 15px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./inde.html">Home</a></li>
+          <li><a href="./">Food</a></li>
+          <li><a href="./Zion111.html">Zion</a></li>
+        </ul>
+      </nav>
+
+      <h1>Nigerian Food Website</h1>
+      <p>Order your favorite local & international dishes easily</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <h2>Popular Nigerian Dishes</h2>
+      <div class="food-gallery">
+        <div class="food-card">
+          <img
+            src="https://media.istockphoto.com/id/959053656/photo/pounded-yam-and-egusi.jpg?s=612x612&w=0&k=20&c=avlDqbygw0OS_178hQgAGfpanz7a7jPUpD0U9ILqaps="
+            alt="Jollof Rice"
+          />
+          <h3>Fofo</h3>
+        </div>
+        <div class="food-card">
+          <img
+            src="https://allnigerianfoods.com/wp-content/uploads/egusi-soup.jpg"
+            alt="Egusi Soup"
+          />
+          <h3>Eba</h3>
+        </div>
+        <div class="food-card">
+          <img
+            src="https://media.istockphoto.com/id/1322558318/photo/fried-peppered-beef.jpg?s=612x612&w=0&k=20&c=cPV5YC16Y11_oMq4ld-2H_dbOssXIxqtvecWiGtl8Z0="
+            alt="Amala & Ewedu"
+          />
+          <h3>Suya</h3>
+        </div>
+        <div class="food-card">
+          <img
+            src="https://media.istockphoto.com/id/1162418297/photo/nigerian-boiled-ripe-plantain-with-spicy-vegetable-soup.jpg?s=612x612&w=0&k=20&c=7nU3WvV5gDvFmMTybZt3p6XOKPahUkXhQVYJFQ0LCIc="
+            alt="Beans & Plantain"
+          />
+          <h3>Plantain</h3>
+        </div>
+        <div class="food-card">
+          <img
+            src="https://media.istockphoto.com/id/1587484871/photo/village-rice.jpg?s=612x612&w=0&k=20&c=ncdvelZu7bezoJ-0ZZWPj6YhOe3N4_q4Yc7zKzkZvZ8="
+            alt="Suya"
+          />
+          <h3>Party Rice</h3>
+        </div>
+        <div class="food-card">
+          <img
+            src="https://media.istockphoto.com/id/1169415720/photo/regional-african-food.jpg?s=612x612&w=0&k=20&c=C6vcHrbpoKC8E513QJlDO_hhJLdrt5VRjky2gQ8wnRU="
+            alt="Moi Moi"
+          />
+          <h3>Amala</h3>
+        </div>
+      </div>
+
+      <h2>Place Your Order</h2>
+      <p class="text">What would you like to eat today?</p>
+
+      <form>
+        <div class="container">
+          <!-- Food Dropdown -->
+          <div class="name">
+            <label for="food">Select your food</label>
+            <input type="text" id="location" placeholder="Select your food" />
+          </div>
+
+          <!-- Location Input -->
+          <div class="location">
+            <label for="location">Location</label>
+            <input type="text" id="location" placeholder="e.g. Lagos" />
+          </div>
+
+          <!-- Price Input -->
+          <div class="price">
+            <label for="price">Price</label>
+            <input type="text" id="price" placeholder="e.g. ₦2500" />
+          </div>
+          <!-- Submit Button -->
+          <div class="button">
+            <button type="submit">Order</button>
+          </div>
+        </div>
+      </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        © 2025 Nigerian Food Website | Built with ❤️ From The Celestial Church
+        Of Christ
+      </p>
+    </footer>
+  </body>
+</html>

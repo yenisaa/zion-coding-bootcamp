@@ -1,0 +1,15 @@
+<!Doctype html>
+<html>
+<head>
+<title>Sunday School page</title>
+</head>
+<body>
+<header>
+<img src="images/celestial.jpg" alt="celestial logo">
+
+</header>
+
+
+
+</body>
+</html>
